@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(41, 142, 142);
+    color: azure;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 90px;
+    background: rgb(27, 87, 87);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(8, 211, 211);
+    font-size: 1.01rem;
+}
+
+.left {
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.firstSection>div {
+    width: 31%;
+}
+
+.leftSection {
+    font-size: 3rem;
+
+}
+
+.rightSection img {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.rightSection img {
+    width: 80%;
+    margin: 50px 0;
+    border-radius: 50%;
+}
+
+.Naam {
+    color: rgb(44, 252, 252);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.secondSection h1 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.thirdSection h1 {
+    font-size: 2rem;
+    padding-bottom: 10px;
+}
+
+#element {
+    color: rgb(42, 251, 251);
+}
+
+main hr {
+    border: 0;
+    background-color: #5aa9a9;
+    height: 1.3px;
+    margin: 40px 90px;
+}
+
+.thirdSection>div>ul>li>ul{
+    margin-left: 10%;
+}
